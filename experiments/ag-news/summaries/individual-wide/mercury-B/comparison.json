@@ -1,0 +1,60 @@
+{
+  "documents": 500,
+  "accepted": 500,
+  "cost_usd": 0.00267642,
+  "cost_coverage": 500,
+  "models": {
+    "inception/mercury-decide": {
+      "all": {
+        "n": 500,
+        "before": 497,
+        "after": 495,
+        "fixed": 0,
+        "broken": 2,
+        "net": -2,
+        "delta_pp": -0.4,
+        "mcnemar_exact_two_sided": 0.5
+      },
+      "world": {
+        "n": 125,
+        "before": 125,
+        "after": 125,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "sports": {
+        "n": 125,
+        "before": 125,
+        "after": 125,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "business": {
+        "n": 125,
+        "before": 122,
+        "after": 121,
+        "fixed": 0,
+        "broken": 1,
+        "net": -1,
+        "delta_pp": -0.8,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "sci_tech": {
+        "n": 125,
+        "before": 125,
+        "after": 124,
+        "fixed": 0,
+        "broken": 1,
+        "net": -1,
+        "delta_pp": -0.8,
+        "mcnemar_exact_two_sided": 1.0
+      }
+    }
+  }
+}

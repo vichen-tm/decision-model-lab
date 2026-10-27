@@ -1,0 +1,1199 @@
+{
+  "48c4ea0f0c053241506ae9ba0289962d9808d76afb020cef17412607d9e5cc2a": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "liquid/d1",
+    "provider": {
+      "only": [
+        "liquid"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "16dca4267f46bf198c190a0824055edbaa6bc7e26024139e2677a2503c0b0597": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "microsoft/microsoft-decision-1",
+    "provider": {
+      "only": [
+        "azure"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "e4aa272f571421fda4fc88b6d4a77ae00d272ee8f1d51633d68522696957f7ea": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "nace-ai/drex-v1.5",
+    "provider": {
+      "only": [
+        "deepinfra"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "19b100d667c5b3f2a04f116ce889cee9ec0ca69b68f13db7b8a49f7e0f708fea": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "nace-ai/drex-v2.0",
+    "provider": {
+      "only": [
+        "deepinfra"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "f94c768926835a0ed73979dae0ec42d1ff829bf9f1ec8e1613c522a94fb33406": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.1-27b",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "986739b53b4e5e70f80fa1f0b9cfe7694f0a0a47ff0d31d20cc5968c70189431": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "afb9f05082fe822b920a14c347bdd84e6305f2ba82009ed7ce123c5504b5b96e": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "af61d9cbb49296b3ef0bbddf7d298dda869f8d4a904163756433ad229a14a7e5": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "aa9e39247bfbb925e8f6a897b23caf55588f9655b524b18065793dd5f24f8c8c": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nIdentify the subject whose situation the article develops across its title and body. Resolve references and distinguish that continuing subject from the actions, reactions, and circumstances described around it. Choose the criterion that best captures this subject as developed in the text. A competing interpretation should prevail only when it accounts for more of the article\u2019s substantive content, rather than an isolated associated detail. Apply this comparison equally to all criteria.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "35a423c8c6eec1a74d051011a8f36683b5429b465b865f82cbe11bb2c0dce0e5": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nIdentify the subject whose situation the article develops across its title and body. Resolve references and distinguish that continuing subject from the actions, reactions, and circumstances described around it. Choose the criterion that best captures this subject as developed in the text. A competing interpretation should prevail only when it accounts for more of the article\u2019s substantive content, rather than an isolated associated detail. Apply this comparison equally to all criteria.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "73fdb789b24fb1b2775d694a4e95c15a3e17b05064702fa405db47c18814e14e": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nIdentify the subject whose situation the article develops across its title and body. Resolve references and distinguish that continuing subject from the actions, reactions, and circumstances described around it. Choose the criterion that best captures this subject as developed in the text. A competing interpretation should prevail only when it accounts for more of the article\u2019s substantive content, rather than an isolated associated detail. Apply this comparison equally to all criteria.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "629ea4158c2a0a725c7769a1296bcba1d5ffb9404a2ae0672b93910a5e06ed84": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nIdentify the main claim that makes this article an update: what has changed, been established, or been proposed. Read the title together with the body to determine that claim\u2019s object and scope. Choose the criterion that most directly describes what the claim adds to the reader\u2019s knowledge. Treat background information as support for interpreting the claim. Prefer another criterion only when it fits the asserted update more directly. Apply this comparison equally to all criteria.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "38640da7702dd8c7ae3ad275a4c500fc0d71552b4eab0f2fcfe9ffccc1a998ad": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nIdentify the main claim that makes this article an update: what has changed, been established, or been proposed. Read the title together with the body to determine that claim\u2019s object and scope. Choose the criterion that most directly describes what the claim adds to the reader\u2019s knowledge. Treat background information as support for interpreting the claim. Prefer another criterion only when it fits the asserted update more directly. Apply this comparison equally to all criteria.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "d45e035036e4b1129f6c2faea9d6ba6a9e1247a2568f601408509effa1899be5": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nIdentify the main claim that makes this article an update: what has changed, been established, or been proposed. Read the title together with the body to determine that claim\u2019s object and scope. Choose the criterion that most directly describes what the claim adds to the reader\u2019s knowledge. Treat background information as support for interpreting the claim. Prefer another criterion only when it fits the asserted update more directly. Apply this comparison equally to all criteria.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "1ee8e503fe67dd33645d8e96b6b218ff06d7b6f0fde573fdc5465359cf99d78b": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nCompare plausible criteria by the explanatory role of their supporting details. For each interpretation, ask whether removing those details would make the article\u2019s central claim or its stated significance substantially harder to understand. Choose the criterion supported by the most indispensable connected evidence. Use the article\u2019s own relationships between facts to judge necessity; do not infer missing relationships. Prefer another criterion only when its evidence is more necessary to understanding the article. Apply this comparison equally to all criteria.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "86ecab82206eca3bdcd978a0bb609ae5f8e1e66e4ef226e9f29fbae08656c7bb": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nCompare plausible criteria by the explanatory role of their supporting details. For each interpretation, ask whether removing those details would make the article\u2019s central claim or its stated significance substantially harder to understand. Choose the criterion supported by the most indispensable connected evidence. Use the article\u2019s own relationships between facts to judge necessity; do not infer missing relationships. Prefer another criterion only when its evidence is more necessary to understanding the article. Apply this comparison equally to all criteria.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "415f0fb2f297516312c2e9bd7bc857424552b9b5e009011d72455d76525cd95d": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nCompare plausible criteria by the explanatory role of their supporting details. For each interpretation, ask whether removing those details would make the article\u2019s central claim or its stated significance substantially harder to understand. Choose the criterion supported by the most indispensable connected evidence. Use the article\u2019s own relationships between facts to judge necessity; do not infer missing relationships. Prefer another criterion only when its evidence is more necessary to understanding the article. Apply this comparison equally to all criteria.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "022eacece0f4bc31a7d9ae96aabd868167df8a046fde8aa66f657f37cdaada50": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nIdentify the main claim the article develops: what happened, changed, or is being explained. Select the category that describes this claim, considering the supplied headline and article text together.\n\nDistinguish the subject of the main claim from its participants, setting, communication medium, and supporting evidence. Any of these may itself be the subject; otherwise its mere presence does not determine the category.\n\nUse business when the main claim concerns economic activity, financial outcomes, or the commercial organization and economic performance of an enterprise. Determine the category from the economic substance of the claim, regardless of the industry involved.\n\nUse sci_tech when the main claim concerns a technology\u2019s capabilities, how it works, or how it is developed. Its application belongs here when the article explains the technical capability being provided.\n\nUse sci_tech when the central claim presents scientific knowledge, a research finding, or an explanation of how a phenomenon works. Determine whether the text develops an investigation or explanation; the presence of measurements or numerical data alone does not establish a scientific focus.\n\nUse world when the main claim concerns the exercise of public authority, collective political action, or relations between societies and states. Determine whether the article develops the public process itself or its consequences for another field.\n\nUse sports when the central claim concerns sporting activity: its preparation, competitive performance, results, or organization. Determine the category from the activity being discussed.\n\nUse world when the central claim concerns public or cultural life, or an event and its consequences for people and communities. Distinguish this focus from an investigation of mechanisms, economic activity, or technical capabilities by identifying what the text actually explains.\n\nWhen several subjects are developed, compare how directly each accounts for the article\u2019s substantive claims and supporting detail. Select the category with the strongest support in the supplied text. Do not invent missing context or use a fixed ordering of categories to resolve equal support.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "ba5479e4627112d2550f11ace8020c9bee1162f934ffae57884585f18e32d036": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nRead the headline and description together. Choose the supplied category that best describes the report's central subject and development.\n\nTreat the categories as broad news topics:\n- world: political, civic, social, cultural and international affairs, public safety and community affairs.\n- sports: sporting activity, participants in their sporting roles, and the organization and governance of sport.\n- business: economic activity, markets, financial performance, commercial strategy, relations and operations.\n- sci_tech: scientific activity, discoveries and observations of natural phenomena, and the development, availability, adoption, operation, use and evaluation of technology.\n\nCover descriptive reports as well as explanatory ones. When topics overlap, consider both the field and what is being reported about it. Determine whether financial, legal or organizational information is the central subject or supporting context; do the same for the identity and industry of the participants. Choose the category that best captures the report's main information. Use only the supplied text and do not apply a fixed ordering of categories.\n",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "d8c17e01fcbaace14ed363402ae95bd1bcd977069ff2fa418b3639b3e8bb7b84": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nIdentify the main claim the article develops: what happened, changed, or is being explained. Select the category that describes this claim, considering the supplied headline and article text together.\n\nDistinguish the subject of the main claim from its participants, setting, communication medium, and supporting evidence. Any of these may itself be the subject; otherwise its mere presence does not determine the category.\n\nUse business when the main claim concerns economic activity, financial outcomes, or the commercial organization and economic performance of an enterprise. Determine the category from the economic substance of the claim, regardless of the industry involved.\n\nUse sci_tech when the main claim concerns a technology\u2019s capabilities, how it works, or how it is developed. Its application belongs here when the article explains the technical capability being provided.\n\nUse sci_tech when the central claim presents scientific knowledge, a research finding, or an explanation of how a phenomenon works. Determine whether the text develops an investigation or explanation; the presence of measurements or numerical data alone does not establish a scientific focus.\n\nUse world when the main claim concerns the exercise of public authority, collective political action, or relations between societies and states. Determine whether the article develops the public process itself or its consequences for another field.\n\nUse sports when the central claim concerns sporting activity: its preparation, competitive performance, results, or organization. Determine the category from the activity being discussed.\n\nUse world when the central claim concerns public or cultural life, or an event and its consequences for people and communities. Distinguish this focus from an investigation of mechanisms, economic activity, or technical capabilities by identifying what the text actually explains.\n\nWhen several subjects are developed, compare how directly each accounts for the article\u2019s substantive claims and supporting detail. Select the category with the strongest support in the supplied text. Do not invent missing context or use a fixed ordering of categories to resolve equal support.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "b83c7404333d5b287a4bb94b80c1c0375e3562ab3b4cce44fb9c6cbed1890f58": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nIdentify the main claim the article develops: what happened, changed, or is being explained. Select the category that describes this claim, considering the supplied headline and article text together.\n\nDistinguish the subject of the main claim from its participants, setting, communication medium, and supporting evidence. Any of these may itself be the subject; otherwise its mere presence does not determine the category.\n\nUse business when the main claim concerns economic activity, financial outcomes, or the commercial organization and economic performance of an enterprise. Determine the category from the economic substance of the claim, regardless of the industry involved.\n\nUse sci_tech when the main claim concerns a technology\u2019s capabilities, how it works, or how it is developed. Its application belongs here when the article explains the technical capability being provided.\n\nUse sci_tech when the central claim presents scientific knowledge, a research finding, or an explanation of how a phenomenon works. Determine whether the text develops an investigation or explanation; the presence of measurements or numerical data alone does not establish a scientific focus.\n\nUse world when the main claim concerns the exercise of public authority, collective political action, or relations between societies and states. Determine whether the article develops the public process itself or its consequences for another field.\n\nUse sports when the central claim concerns sporting activity: its preparation, competitive performance, results, or organization. Determine the category from the activity being discussed.\n\nUse world when the central claim concerns public or cultural life, or an event and its consequences for people and communities. Distinguish this focus from an investigation of mechanisms, economic activity, or technical capabilities by identifying what the text actually explains.\n\nWhen several subjects are developed, compare how directly each accounts for the article\u2019s substantive claims and supporting detail. Select the category with the strongest support in the supplied text. Do not invent missing context or use a fixed ordering of categories to resolve equal support.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "566d17519e5505184aa9453dbb2385b8bdf5af28d82734c7a3192685e6792a84": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nUse the supplied category descriptions as the definitions of the available answers. Preserve their full scope; do not add requirements, exclusions, or a fixed preference between categories.\n\nRead the supplied headline and article text together to determine what the article is about. Identify the subject being developed and what the text says about it.\n\nAssess how each relevant category description fits the article as a whole. Consider both the subject and the reported development in their relationship; neither automatically determines the category on its own.\n\nDistinguish information that develops the subject from incidental mentions. Determine the role of each detail from its connection to the rest of the text, rather than treating an isolated word as sufficient evidence for a category.\n\nWhen more than one category fits, compare the support for each under the supplied descriptions and choose the one that best accounts for the article as a whole. Use only the supplied content; do not invent missing context to resolve ambiguity.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "3df8efb5052538adc66d3dbf7f42a6299e7eec915c36ac7b4f5d4860a7f4f62f": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nUse the supplied category descriptions as the definitions of the available answers. Preserve their full scope; do not add requirements, exclusions, or a fixed preference between categories.\n\nRead the supplied headline and article text together to determine what the article is about. Identify the subject being developed and what the text says about it.\n\nAssess how each relevant category description fits the article as a whole. Consider both the subject and the reported development in their relationship; neither automatically determines the category on its own.\n\nDistinguish information that develops the subject from incidental mentions. Determine the role of each detail from its connection to the rest of the text, rather than treating an isolated word as sufficient evidence for a category.\n\nWhen more than one category fits, compare the support for each under the supplied descriptions and choose the one that best accounts for the article as a whole. Use only the supplied content; do not invent missing context to resolve ambiguity.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "71759a84a33a213563ba4ac00ea8c45036670d99f1ece6379ecbb994b9df80be": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nUse the supplied category descriptions as the definitions of the available answers. Preserve their full scope; do not add requirements, exclusions, or a fixed preference between categories.\n\nRead the supplied headline and article text together to determine what the article is about. Identify the subject being developed and what the text says about it.\n\nAssess how each relevant category description fits the article as a whole. Consider both the subject and the reported development in their relationship; neither automatically determines the category on its own.\n\nDistinguish information that develops the subject from incidental mentions. Determine the role of each detail from its connection to the rest of the text, rather than treating an isolated word as sufficient evidence for a category.\n\nWhen more than one category fits, compare the support for each under the supplied descriptions and choose the one that best accounts for the article as a whole. Use only the supplied content; do not invent missing context to resolve ambiguity.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "7650c31845b23ec10f55536bf4dc4978c32a6a82bfb1760e58d0aeaa604c7188": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nUse the supplied category descriptions without adding requirements, exclusions, or a fixed preference between categories.\n\nBase the choice on information stated in the supplied headline and article text. Interpret the statements and the relationships they express using their context.\n\nSelect the category supported by the supplied content and category descriptions. Do not introduce facts that are absent from the text.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "690e8477ea120d833e683494e6be5c8bea5ca6d5649458df628db6e15021260f": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nUse the supplied category descriptions without adding requirements, exclusions, or a fixed preference between categories.\n\nBase the choice on information stated in the supplied headline and article text. Interpret the statements and the relationships they express using their context.\n\nSelect the category supported by the supplied content and category descriptions. Do not introduce facts that are absent from the text.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "a046eef42bc83e64eac95ee5d7ac2dba5759fe1ddab25f32f13abea114ac1a48": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nUse the supplied category descriptions without adding requirements, exclusions, or a fixed preference between categories.\n\nBase the choice on information stated in the supplied headline and article text. Interpret the statements and the relationships they express using their context.\n\nSelect the category supported by the supplied content and category descriptions. Do not introduce facts that are absent from the text.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "f7bdd05274cf2fd0b03c046b4029b618c8fd63dbaf91e686d4c7a6f9e791b612": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nResolve what the article\u2019s statements refer to before matching them to the supplied criteria. Keep the scope of quotation, attribution, negation, and hypothetical or represented situations intact. Interpret ambiguous expressions in their local context, then classify that resolved meaning using the criteria as given.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "695eb068109f747afbf1b59c71d6a930e3f36ddc01cfe5749258300f59872156": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nResolve what the article\u2019s statements refer to before matching them to the supplied criteria. Keep the scope of quotation, attribution, negation, and hypothetical or represented situations intact. Interpret ambiguous expressions in their local context, then classify that resolved meaning using the criteria as given.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "a2d2e032b62f435c1eb07670e3266c0a987421d135d5c0c1b9ab3d5feaf45e78": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nResolve what the article\u2019s statements refer to before matching them to the supplied criteria. Keep the scope of quotation, attribution, negation, and hypothetical or represented situations intact. Interpret ambiguous expressions in their local context, then classify that resolved meaning using the criteria as given.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "ef65399cceb3fa7d25c9aac8353f4d66a3143a8a11930005b53a13071feed402": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nTreat the topics listed within each supplied criterion as alternatives within its stated scope. A text need not address every listed topic to fit that criterion. Compare the resulting matches without adding requirements or narrowing any criterion to its most familiar association.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "cedfc433a3ce1ffbacb7d9cbd6e913cebf5a9f16f1ee2ee1c7f694a329815b50": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nTreat the topics listed within each supplied criterion as alternatives within its stated scope. A text need not address every listed topic to fit that criterion. Compare the resulting matches without adding requirements or narrowing any criterion to its most familiar association.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "1358727952669f12bd7de579db3e030917a699ad25226bcf6ed57c554f67a533": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nTreat the topics listed within each supplied criterion as alternatives within its stated scope. A text need not address every listed topic to fit that criterion. Compare the resulting matches without adding requirements or narrowing any criterion to its most familiar association.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "49565c33edd0b4b4dcd11d28e60ca017d82205a5a079a467e01afdfc9a10d7da": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nMake a provisional choice using the supplied criteria. Check whether that choice depends on a misreading of the text or an added assumption. Revise it only when you can identify that specific error and another criterion fits the corrected reading better. The mere availability of a different plausible interpretation is not a reason to switch.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "0338cab13cb64d92be410a1bbb8aeb7cbb5fdc29d80ad194a30a695e41bf559c": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nMake a provisional choice using the supplied criteria. Check whether that choice depends on a misreading of the text or an added assumption. Revise it only when you can identify that specific error and another criterion fits the corrected reading better. The mere availability of a different plausible interpretation is not a reason to switch.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "2486a5cd98338143a98272f5441650271de719c601eae4e6c1f7451665ca3f5e": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nMake a provisional choice using the supplied criteria. Check whether that choice depends on a misreading of the text or an added assumption. Revise it only when you can identify that specific error and another criterion fits the corrected reading better. The mere availability of a different plausible interpretation is not a reason to switch.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "7d03e0e53c9a7bb62f81ee05c5db8c4b6845eece400e4d2a8e04502d7ab85af1": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nMatch the article\u2019s topic directly to the supplied category descriptions.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "7d7db4307062c1e4096f72acd237ce023f35021db7aea24511f9d98a8031c137": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nMatch the article\u2019s topic directly to the supplied category descriptions.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "b4eac7ca443e1a63991c491df191202ba5d852e0d51fc8abd69ef385acd53856": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nMatch the article\u2019s topic directly to the supplied category descriptions.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "5e35dc0b6ac28ae1dc73ecd29019507d8db02a75f45098a2b03b333cae9858ca": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nDistinguish what is being discussed from who is speaking about it. Use the supplied criteria to classify the content of the discussion.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "d2e8c2f478b65eabac71aa932499cc861f7256d14a5ca461be98fefb399edc47": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nDistinguish what is being discussed from who is speaking about it. Use the supplied criteria to classify the content of the discussion.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "47c281e7e315096618e49d89f31c23526a61943c2e837049351a644502ac902f": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nDistinguish what is being discussed from who is speaking about it. Use the supplied criteria to classify the content of the discussion.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "18ce834756aee034f61ca0abd71b5b3511d55e67bfbf75ce3aa5cda63c30b224": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nInterpret figurative or compressed wording through the surrounding text. Match the meaning expressed, rather than the literal associations of individual words, to the supplied criteria.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "7a8b87b085c83536f8c47ea1276c8136b7afbaad1d7f575f018bdfb1693bd9e9": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nInterpret figurative or compressed wording through the surrounding text. Match the meaning expressed, rather than the literal associations of individual words, to the supplied criteria.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "02dd6db5cf5083e727b5dabffba17357adc79d78036b879f4b7df53298ddb8a7": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nInterpret figurative or compressed wording through the surrounding text. Match the meaning expressed, rather than the literal associations of individual words, to the supplied criteria.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "adf42be47f55ee663898487afc53713de67e653ff0d13857f9a3e5ecd0d08751": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nMatch the article\u2019s topic directly to the supplied category descriptions.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "liquid/d1",
+    "provider": {
+      "only": [
+        "liquid"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "9ca407260a2056deb936b288170188b083f4627db455021a1d7deeabc8da95bf": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nMatch the article\u2019s topic directly to the supplied category descriptions.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "microsoft/microsoft-decision-1",
+    "provider": {
+      "only": [
+        "azure"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "6f405440b2e1ff08e1e4b2339ec016943575f1441b761c920a13b7c8aaa95a99": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nMatch the article\u2019s topic directly to the supplied category descriptions.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "nace-ai/drex-v1.5",
+    "provider": {
+      "only": [
+        "deepinfra"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "5a784c377baff9729fef94d6999794e36fb1072e104e1e44e8aa1e4ecc253964": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nRead the supplied category descriptions as definitions of subject matter. Choose the category whose definition most closely matches what the article discusses.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "456624cb7234b3e094a78d2ac03afab78597f98a11ce182ec06a3cde0245e04d": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nRead the supplied category descriptions as definitions of subject matter. Choose the category whose definition most closely matches what the article discusses.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "microsoft/microsoft-decision-1",
+    "provider": {
+      "only": [
+        "azure"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "543b0a6a2eae3fc8ca6ad25c88d824ea467aa52c16fb59adfee7ccc1e0551560": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nRead the supplied category descriptions as definitions of subject matter. Choose the category whose definition most closely matches what the article discusses.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "a831da144f631177a433e8030da42abcd99fb1d12df745ec9bc9cad2bcc699fd": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nUse the relationships between the article\u2019s statements to determine its subject. Match that subject to the supplied category descriptions.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "70c75ee6c200523337c843216e522fdf1bd87b4b294052cacdfad3cc59a0d2ea": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nUse the relationships between the article\u2019s statements to determine its subject. Match that subject to the supplied category descriptions.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "microsoft/microsoft-decision-1",
+    "provider": {
+      "only": [
+        "azure"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "d974cac07a752d09b6e261113ecc90c56ae5e9969776d2ac86a09aff04afea6d": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nUse the relationships between the article\u2019s statements to determine its subject. Match that subject to the supplied category descriptions.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "2aac3e8d6971ab9ec970fb099ecafdfbca78c8a251e637014a6479257018b738": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nInterpret the title and the article text together. Use the article text to resolve ambiguity in the title, then classify the resulting topic using the supplied category descriptions.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "inception/mercury-decide",
+    "provider": {
+      "only": [
+        "inception"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "47c95dee54219b8e82f97c274eb095adacccc34168fa8de25d1d0980130e9398": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nInterpret the title and the article text together. Use the article text to resolve ambiguity in the title, then classify the resulting topic using the supplied category descriptions.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "microsoft/microsoft-decision-1",
+    "provider": {
+      "only": [
+        "azure"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "b6926a2fb7fe714be92081dd390526aad2f817cb975f7beb43f6b3b7262a6846": {
+    "questions": {
+      "topic": {
+        "type": "choice",
+        "instructions": "What is the topic of `article`?\n\nInterpret the title and the article text together. Use the article text to resolve ambiguity in the title, then classify the resulting topic using the supplied category descriptions.",
+        "criteria": {
+          "world": "world news, politics, international affairs",
+          "sports": "sports, athletes, games, competitions",
+          "business": "business, economy, companies, markets, finance",
+          "sci_tech": "science and technology, computing, internet, research"
+        }
+      }
+    },
+    "model": "perplexity/pplx-decider-v1.2",
+    "provider": {
+      "only": [
+        "perplexity"
+      ],
+      "allow_fallbacks": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "cascade",
+  "models": [
+    "microsoft",
+    "jev"
+  ],
+  "thresholds": [
+    0.95,
+    0.9
+  ]
+}

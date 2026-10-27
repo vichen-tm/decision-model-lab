@@ -1,0 +1,11 @@
+{
+  "task": "Route support messages to billing, access, or other",
+  "labels": ["billing", "access", "other"],
+  "data": "examples/dataset.jsonl",
+  "data_status": "Two synthetic examples for interface demonstration; collect representative labeled data before selecting a system",
+  "objective": {"accepted_accuracy": 0.98, "maximum_referral_fraction": 0.1},
+  "experiment_budget_usd": 2.0,
+  "referral_handler": "Human support queue",
+  "referral_cost_usd": null,
+  "stage_authorized": false
+}

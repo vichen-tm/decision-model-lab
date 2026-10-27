@@ -1,0 +1,229 @@
+{
+  "inception/mercury-decide": {
+    "changed": 27,
+    "baseline_correct": 29,
+    "baseline_wrong": 89,
+    "transitions": {
+      "broken": 15,
+      "fixed": 11,
+      "still_wrong": 1
+    },
+    "predictions_before": {
+      "world": 29,
+      "business": 37,
+      "sci_tech": 50,
+      "sports": 2
+    },
+    "predictions_after": {
+      "world": 42,
+      "business": 42,
+      "sci_tech": 33,
+      "sports": 1
+    },
+    "direction_counts": [
+      {
+        "from": "sci_tech",
+        "to": "world",
+        "outcome": "broken",
+        "count": 5
+      },
+      {
+        "from": "business",
+        "to": "world",
+        "outcome": "broken",
+        "count": 1
+      },
+      {
+        "from": "sci_tech",
+        "to": "world",
+        "outcome": "fixed",
+        "count": 3
+      },
+      {
+        "from": "sci_tech",
+        "to": "business",
+        "outcome": "broken",
+        "count": 9
+      },
+      {
+        "from": "business",
+        "to": "world",
+        "outcome": "fixed",
+        "count": 5
+      },
+      {
+        "from": "world",
+        "to": "sci_tech",
+        "outcome": "fixed",
+        "count": 1
+      },
+      {
+        "from": "sci_tech",
+        "to": "business",
+        "outcome": "fixed",
+        "count": 1
+      },
+      {
+        "from": "world",
+        "to": "business",
+        "outcome": "fixed",
+        "count": 1
+      },
+      {
+        "from": "sports",
+        "to": "world",
+        "outcome": "still_wrong",
+        "count": 1
+      }
+    ]
+  },
+  "perplexity/pplx-decider-v1.2": {
+    "changed": 18,
+    "baseline_correct": 25,
+    "baseline_wrong": 93,
+    "transitions": {
+      "still_wrong": 5,
+      "broken": 11,
+      "fixed": 2
+    },
+    "predictions_before": {
+      "world": 15,
+      "business": 63,
+      "sci_tech": 37,
+      "sports": 3
+    },
+    "predictions_after": {
+      "world": 29,
+      "business": 55,
+      "sci_tech": 31,
+      "sports": 3
+    },
+    "direction_counts": [
+      {
+        "from": "sci_tech",
+        "to": "world",
+        "outcome": "still_wrong",
+        "count": 1
+      },
+      {
+        "from": "business",
+        "to": "world",
+        "outcome": "still_wrong",
+        "count": 2
+      },
+      {
+        "from": "business",
+        "to": "world",
+        "outcome": "broken",
+        "count": 6
+      },
+      {
+        "from": "sci_tech",
+        "to": "world",
+        "outcome": "fixed",
+        "count": 1
+      },
+      {
+        "from": "business",
+        "to": "sci_tech",
+        "outcome": "still_wrong",
+        "count": 1
+      },
+      {
+        "from": "sci_tech",
+        "to": "world",
+        "outcome": "broken",
+        "count": 4
+      },
+      {
+        "from": "sci_tech",
+        "to": "business",
+        "outcome": "broken",
+        "count": 1
+      },
+      {
+        "from": "world",
+        "to": "business",
+        "outcome": "still_wrong",
+        "count": 1
+      },
+      {
+        "from": "business",
+        "to": "world",
+        "outcome": "fixed",
+        "count": 1
+      }
+    ]
+  },
+  "typesafe/jev-1.13": {
+    "changed": 26,
+    "baseline_correct": 6,
+    "baseline_wrong": 112,
+    "transitions": {
+      "still_wrong": 9,
+      "fixed": 17
+    },
+    "predictions_before": {
+      "world": 36,
+      "business": 56,
+      "sports": 3,
+      "sci_tech": 23
+    },
+    "predictions_after": {
+      "world": 50,
+      "business": 58,
+      "sci_tech": 9,
+      "sports": 1
+    },
+    "direction_counts": [
+      {
+        "from": "sports",
+        "to": "business",
+        "outcome": "still_wrong",
+        "count": 1
+      },
+      {
+        "from": "sci_tech",
+        "to": "world",
+        "outcome": "still_wrong",
+        "count": 5
+      },
+      {
+        "from": "business",
+        "to": "world",
+        "outcome": "still_wrong",
+        "count": 2
+      },
+      {
+        "from": "sci_tech",
+        "to": "world",
+        "outcome": "fixed",
+        "count": 4
+      },
+      {
+        "from": "sci_tech",
+        "to": "business",
+        "outcome": "fixed",
+        "count": 7
+      },
+      {
+        "from": "world",
+        "to": "sci_tech",
+        "outcome": "fixed",
+        "count": 2
+      },
+      {
+        "from": "business",
+        "to": "world",
+        "outcome": "fixed",
+        "count": 4
+      },
+      {
+        "from": "sports",
+        "to": "world",
+        "outcome": "still_wrong",
+        "count": 1
+      }
+    ]
+  }
+}

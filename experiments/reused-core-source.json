@@ -1,0 +1,26 @@
+{
+  "upstream_repository": "https://github.com/vichen-tm/decisions-model-banchmark",
+  "basis": "Local publication source snapshot; file hashes identify bytes, no unverified commit identity asserted.",
+  "source_files": {
+    "decision_benchmark/verification.py": "d3d3cb0b349950b24c054bf56d422e0b5bad472a4e8a920059edaa5430102a87",
+    "decision_benchmark/encoding.py": "9d6d630c49344f0186a27ccdb61ab2e3407a9ac91793c7403b22b47b742ddc0f",
+    "decision_benchmark/analysis.py": "d7fc8f6e3b030b8fe5064dbc05fecd3ec31bd57d1fe2d60c86066afe71912826",
+    "decision_benchmark/confidence.py": "4668627ff33e552f7ec51d068d676f4330f8c862c1036e7039a17f80ec483330",
+    "decision_benchmark/rating.py": "3ebbd51ce57eb86f43465f2397dae4b0d269ee0377e9e02b5f04fc56c8564e2a",
+    "decision_benchmark/scoring.py": "dc7787352aa3ffd431f99a5a5147573145268142456414727012184045e491ac",
+    "decision_benchmark/simulations.py": "11dbfe04b077ed7eb797e2946490edc2692dc7b54cc0e9f2e619ff362aa8f6b4",
+    "decision_benchmark/__init__.py": "e0449e1b9eaf66a9bb2458065fcfb48935115f6a7682aebd5a9efcd9a2ee328c",
+    "decision_benchmark/campaign_metrics.py": "923b1d832a37ad9b3a78610b1340f2ca42192aafa443072c3c73ab4699d090c6",
+    "decision_benchmark/archive.py": "01d8469f89d7d84fe1cc54affc94e53d9ef768fd1c30c0281fc45be5c7087740",
+    "decision_benchmark/__main__.py": "f39021a0f37feae9ae707b6b0fe6313676717ba46507c93fb9793fea61dd1776",
+    "decision_benchmark/reporting.py": "590c20f0cf6cc5092e7efbc6f4028ce04f47fca68ddbd2d33ba3e3b90fc64777",
+    "decision_benchmark/runner/execution.py": "030243b1749f655f1841dd89ae276a34f68737dd1b560349a5f382c720e91635",
+    "decision_benchmark/runner/journal.py": "972f6a3a23fe868efa959b505209fa23d9b71b45b4e34ef0e68867725beaf07a",
+    "decision_benchmark/runner/benchmark.py": "0a426ceb34753d1acd731a847bc0209ed6f912205b257490c08f95f444347416",
+    "decision_benchmark/runner/transport.py": "afda832a8307b3de1b9e7cc6fb549334da46c539dcc335e5567fb0f7ff87466a",
+    "decision_benchmark/runner/__init__.py": "3c48016c8c246cef779f1b4c3a76cdf5f87c808745350ad0e1abc18fe05b35de",
+    "decision_benchmark/runner/dataset.py": "a1ae8327a39eeff8c85d4d7cc0c965fc05eb0e5b23b83875435a91f09f72f289",
+    "decision_benchmark/runner/cli.py": "e4900e448843c85f0650774259b0b12d8f589b32e36e6724858c1e1e98415759",
+    "decision_benchmark/runner/report.py": "318b82529a8c0849eb78b593c63618be879a4548036fdf58d4a3637c3967a156"
+  }
+}

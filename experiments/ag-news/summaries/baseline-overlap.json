@@ -1,0 +1,154 @@
+{
+  "documents": 2000,
+  "accepted_requests": 12000,
+  "exact_error_counts": {
+    "0": 1630,
+    "1": 77,
+    "2": 51,
+    "3": 80,
+    "4": 32,
+    "5": 34,
+    "6": 96
+  },
+  "all_six": 96,
+  "majority_4_to_6": 162,
+  "more_than_one_2_to_6": 293,
+  "at_least_one": 370,
+  "models": {
+    "inception/mercury-decide": {
+      "correct": 1836,
+      "errors": 164
+    },
+    "liquid/d1": {
+      "correct": 1758,
+      "errors": 242
+    },
+    "microsoft/microsoft-decision-1": {
+      "correct": 1763,
+      "errors": 237
+    },
+    "nace-ai/drex-v1.5": {
+      "correct": 1776,
+      "errors": 224
+    },
+    "perplexity/pplx-decider-v1.2": {
+      "correct": 1820,
+      "errors": 180
+    },
+    "typesafe/jev-1.13": {
+      "correct": 1754,
+      "errors": 246
+    }
+  },
+  "pairs": [
+    {
+      "models": [
+        "inception/mercury-decide",
+        "liquid/d1"
+      ],
+      "both_wrong": 133
+    },
+    {
+      "models": [
+        "inception/mercury-decide",
+        "microsoft/microsoft-decision-1"
+      ],
+      "both_wrong": 126
+    },
+    {
+      "models": [
+        "inception/mercury-decide",
+        "nace-ai/drex-v1.5"
+      ],
+      "both_wrong": 150
+    },
+    {
+      "models": [
+        "inception/mercury-decide",
+        "perplexity/pplx-decider-v1.2"
+      ],
+      "both_wrong": 126
+    },
+    {
+      "models": [
+        "inception/mercury-decide",
+        "typesafe/jev-1.13"
+      ],
+      "both_wrong": 128
+    },
+    {
+      "models": [
+        "liquid/d1",
+        "microsoft/microsoft-decision-1"
+      ],
+      "both_wrong": 198
+    },
+    {
+      "models": [
+        "liquid/d1",
+        "nace-ai/drex-v1.5"
+      ],
+      "both_wrong": 153
+    },
+    {
+      "models": [
+        "liquid/d1",
+        "perplexity/pplx-decider-v1.2"
+      ],
+      "both_wrong": 139
+    },
+    {
+      "models": [
+        "liquid/d1",
+        "typesafe/jev-1.13"
+      ],
+      "both_wrong": 201
+    },
+    {
+      "models": [
+        "microsoft/microsoft-decision-1",
+        "nace-ai/drex-v1.5"
+      ],
+      "both_wrong": 147
+    },
+    {
+      "models": [
+        "microsoft/microsoft-decision-1",
+        "perplexity/pplx-decider-v1.2"
+      ],
+      "both_wrong": 134
+    },
+    {
+      "models": [
+        "microsoft/microsoft-decision-1",
+        "typesafe/jev-1.13"
+      ],
+      "both_wrong": 209
+    },
+    {
+      "models": [
+        "nace-ai/drex-v1.5",
+        "perplexity/pplx-decider-v1.2"
+      ],
+      "both_wrong": 136
+    },
+    {
+      "models": [
+        "nace-ai/drex-v1.5",
+        "typesafe/jev-1.13"
+      ],
+      "both_wrong": 146
+    },
+    {
+      "models": [
+        "perplexity/pplx-decider-v1.2",
+        "typesafe/jev-1.13"
+      ],
+      "both_wrong": 137
+    }
+  ],
+  "accepted_cost_usd": 0.07676649,
+  "cost_coverage": 12000,
+  "all_runs_accepted_cost_usd": 0.07718709,
+  "note": "Groups 6, >=4, >=2 overlap. Baseline analysis includes all former splits; new holdout needed if used for subsequent tuning."
+}

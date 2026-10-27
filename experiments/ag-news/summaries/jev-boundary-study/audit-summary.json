@@ -1,0 +1,38 @@
+{
+  "n": 618,
+  "reviewer_assessments": {
+    "ambiguous": 95,
+    "supported": 485,
+    "likely_mismatch": 35,
+    "insufficient": 3
+  },
+  "by_baseline": {
+    "incorrect": {
+      "ambiguous": 78,
+      "likely_mismatch": 34,
+      "supported": 26
+    },
+    "correct": {
+      "supported": 459,
+      "ambiguous": 17,
+      "likely_mismatch": 1,
+      "insufficient": 3
+    }
+  },
+  "by_cohort": {
+    "wide500": {
+      "ambiguous": 31,
+      "supported": 466,
+      "likely_mismatch": 1,
+      "insufficient": 2
+    },
+    "hard118": {
+      "likely_mismatch": 34,
+      "ambiguous": 64,
+      "supported": 19,
+      "insufficient": 1
+    }
+  },
+  "gold_unchanged": true,
+  "new_model_calls": 0
+}

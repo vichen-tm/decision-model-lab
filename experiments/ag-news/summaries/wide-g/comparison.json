@@ -1,0 +1,320 @@
+{
+  "documents": 500,
+  "accepted": 3000,
+  "cost_usd": 0.020435278,
+  "cost_coverage": 3000,
+  "models": {
+    "inception/mercury-decide": {
+      "all": {
+        "n": 500,
+        "before": 497,
+        "after": 495,
+        "fixed": 0,
+        "broken": 2,
+        "net": -2,
+        "delta_pp": -0.4,
+        "mcnemar_exact_two_sided": 0.5
+      },
+      "world": {
+        "n": 125,
+        "before": 125,
+        "after": 125,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "sports": {
+        "n": 125,
+        "before": 125,
+        "after": 125,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "business": {
+        "n": 125,
+        "before": 122,
+        "after": 121,
+        "fixed": 0,
+        "broken": 1,
+        "net": -1,
+        "delta_pp": -0.8,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "sci_tech": {
+        "n": 125,
+        "before": 125,
+        "after": 124,
+        "fixed": 0,
+        "broken": 1,
+        "net": -1,
+        "delta_pp": -0.8,
+        "mcnemar_exact_two_sided": 1.0
+      }
+    },
+    "liquid/d1": {
+      "all": {
+        "n": 500,
+        "before": 483,
+        "after": 486,
+        "fixed": 4,
+        "broken": 1,
+        "net": 3,
+        "delta_pp": 0.6,
+        "mcnemar_exact_two_sided": 0.375
+      },
+      "world": {
+        "n": 125,
+        "before": 125,
+        "after": 125,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "sports": {
+        "n": 125,
+        "before": 124,
+        "after": 124,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "business": {
+        "n": 125,
+        "before": 123,
+        "after": 123,
+        "fixed": 1,
+        "broken": 1,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "sci_tech": {
+        "n": 125,
+        "before": 111,
+        "after": 114,
+        "fixed": 3,
+        "broken": 0,
+        "net": 3,
+        "delta_pp": 2.4,
+        "mcnemar_exact_two_sided": 0.25
+      }
+    },
+    "microsoft/microsoft-decision-1": {
+      "all": {
+        "n": 500,
+        "before": 481,
+        "after": 477,
+        "fixed": 0,
+        "broken": 4,
+        "net": -4,
+        "delta_pp": -0.8,
+        "mcnemar_exact_two_sided": 0.125
+      },
+      "world": {
+        "n": 125,
+        "before": 125,
+        "after": 125,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "sports": {
+        "n": 125,
+        "before": 124,
+        "after": 124,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "business": {
+        "n": 125,
+        "before": 123,
+        "after": 123,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "sci_tech": {
+        "n": 125,
+        "before": 109,
+        "after": 105,
+        "fixed": 0,
+        "broken": 4,
+        "net": -4,
+        "delta_pp": -3.2,
+        "mcnemar_exact_two_sided": 0.125
+      }
+    },
+    "nace-ai/drex-v1.5": {
+      "all": {
+        "n": 500,
+        "before": 476,
+        "after": 477,
+        "fixed": 3,
+        "broken": 2,
+        "net": 1,
+        "delta_pp": 0.2,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "world": {
+        "n": 125,
+        "before": 124,
+        "after": 124,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "sports": {
+        "n": 125,
+        "before": 125,
+        "after": 125,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "business": {
+        "n": 125,
+        "before": 104,
+        "after": 106,
+        "fixed": 2,
+        "broken": 0,
+        "net": 2,
+        "delta_pp": 1.6,
+        "mcnemar_exact_two_sided": 0.5
+      },
+      "sci_tech": {
+        "n": 125,
+        "before": 123,
+        "after": 122,
+        "fixed": 1,
+        "broken": 2,
+        "net": -1,
+        "delta_pp": -0.8,
+        "mcnemar_exact_two_sided": 1.0
+      }
+    },
+    "perplexity/pplx-decider-v1.2": {
+      "all": {
+        "n": 500,
+        "before": 492,
+        "after": 494,
+        "fixed": 4,
+        "broken": 2,
+        "net": 2,
+        "delta_pp": 0.4,
+        "mcnemar_exact_two_sided": 0.6875
+      },
+      "world": {
+        "n": 125,
+        "before": 122,
+        "after": 123,
+        "fixed": 2,
+        "broken": 1,
+        "net": 1,
+        "delta_pp": 0.8,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "sports": {
+        "n": 125,
+        "before": 125,
+        "after": 124,
+        "fixed": 0,
+        "broken": 1,
+        "net": -1,
+        "delta_pp": -0.8,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "business": {
+        "n": 125,
+        "before": 121,
+        "after": 123,
+        "fixed": 2,
+        "broken": 0,
+        "net": 2,
+        "delta_pp": 1.6,
+        "mcnemar_exact_two_sided": 0.5
+      },
+      "sci_tech": {
+        "n": 125,
+        "before": 124,
+        "after": 124,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      }
+    },
+    "typesafe/jev-1.13": {
+      "all": {
+        "n": 500,
+        "before": 474,
+        "after": 473,
+        "fixed": 0,
+        "broken": 1,
+        "net": -1,
+        "delta_pp": -0.2,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "world": {
+        "n": 125,
+        "before": 124,
+        "after": 123,
+        "fixed": 0,
+        "broken": 1,
+        "net": -1,
+        "delta_pp": -0.8,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "sports": {
+        "n": 125,
+        "before": 123,
+        "after": 123,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "business": {
+        "n": 125,
+        "before": 123,
+        "after": 123,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      },
+      "sci_tech": {
+        "n": 125,
+        "before": 104,
+        "after": 104,
+        "fixed": 0,
+        "broken": 0,
+        "net": 0,
+        "delta_pp": 0.0,
+        "mcnemar_exact_two_sided": 1.0
+      }
+    }
+  }
+}

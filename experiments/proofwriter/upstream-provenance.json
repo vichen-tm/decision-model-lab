@@ -1,0 +1,10 @@
+{
+  "source": "https://github.com/vichen-tm/decisions-model-banchmark",
+  "content_sha256": {
+    "responses/typesafe--jev-1.13.jsonl.gz": "e7ec07bb26744dc599f06342a295cbe6f6275fe1d1d51abd05c5b18f259b3fd4",
+    "responses/liquid--d1.jsonl.gz": "d92615ae2b113ba66540a895438bd60cf78138961dbedddcd10e9494a81e5d68",
+    "responses/microsoft--microsoft-decision-1.jsonl.gz": "544fec66bb00193aa1e0aba645560181bc57915d7383315cf366236b22693148"
+  },
+  "scope": "English ProofWriter, Jev/Liquid/Microsoft, all five original repeats; stage comparisons use repeat1 unless explicitly stated.",
+  "responses": 4500
+}

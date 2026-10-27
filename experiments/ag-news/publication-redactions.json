@@ -1,0 +1,77 @@
+{
+  "reason": "Remove provider account identifier from eight technical error responses. Original evidence remains local. No model predictions, status codes, timing or cost fields were changed.",
+  "records": [
+    {
+      "task_id": "bdce1ce11602b86213e645a9f4486a7339935651c6b0e70d4d172b810d903c7b",
+      "status": 404,
+      "removed_fields": [
+        "user_id"
+      ],
+      "source_body_sha256": "b58c849af30864065ff3c576e3ce1000e15e8e48707d1b5c92a991f9be58474f",
+      "published_body_sha256": "c703f583f111b86f2e7c1ccbf17588b5d8f845abdbcecc2214cf35926407761f"
+    },
+    {
+      "task_id": "cfc4cb6b2e06488119466652aa30bdac7486ef1c300514b4024cd0095c073636",
+      "status": 404,
+      "removed_fields": [
+        "user_id"
+      ],
+      "source_body_sha256": "b58c849af30864065ff3c576e3ce1000e15e8e48707d1b5c92a991f9be58474f",
+      "published_body_sha256": "c703f583f111b86f2e7c1ccbf17588b5d8f845abdbcecc2214cf35926407761f"
+    },
+    {
+      "task_id": "358620935e5ad282c452655a04097c9c78c0d25789bb2ec2d4899d6cae540b06",
+      "status": 404,
+      "removed_fields": [
+        "user_id"
+      ],
+      "source_body_sha256": "b58c849af30864065ff3c576e3ce1000e15e8e48707d1b5c92a991f9be58474f",
+      "published_body_sha256": "c703f583f111b86f2e7c1ccbf17588b5d8f845abdbcecc2214cf35926407761f"
+    },
+    {
+      "task_id": "859304e640b83bc873eee50d3a2a1f3c713769c16a7e151483db21ecf728ba68",
+      "status": 404,
+      "removed_fields": [
+        "user_id"
+      ],
+      "source_body_sha256": "b58c849af30864065ff3c576e3ce1000e15e8e48707d1b5c92a991f9be58474f",
+      "published_body_sha256": "c703f583f111b86f2e7c1ccbf17588b5d8f845abdbcecc2214cf35926407761f"
+    },
+    {
+      "task_id": "219520e5b2505cb7d595d83bcda95f664457982df4a75644b597fdefacd46627",
+      "status": 404,
+      "removed_fields": [
+        "user_id"
+      ],
+      "source_body_sha256": "b58c849af30864065ff3c576e3ce1000e15e8e48707d1b5c92a991f9be58474f",
+      "published_body_sha256": "c703f583f111b86f2e7c1ccbf17588b5d8f845abdbcecc2214cf35926407761f"
+    },
+    {
+      "task_id": "5d492fb7a6644a2e856cecb059b59877556954fa14efae19de2c2a302e25a179",
+      "status": 404,
+      "removed_fields": [
+        "user_id"
+      ],
+      "source_body_sha256": "b58c849af30864065ff3c576e3ce1000e15e8e48707d1b5c92a991f9be58474f",
+      "published_body_sha256": "c703f583f111b86f2e7c1ccbf17588b5d8f845abdbcecc2214cf35926407761f"
+    },
+    {
+      "task_id": "c1ad21761afd0002a819c5eb67de3ce8d1de0fddc7b40a9a9d4f20d2912737df",
+      "status": 404,
+      "removed_fields": [
+        "user_id"
+      ],
+      "source_body_sha256": "b58c849af30864065ff3c576e3ce1000e15e8e48707d1b5c92a991f9be58474f",
+      "published_body_sha256": "c703f583f111b86f2e7c1ccbf17588b5d8f845abdbcecc2214cf35926407761f"
+    },
+    {
+      "task_id": "1e22587fa676adde3a06dfe1ee97fbb965b86d1cbd47aa9e066e05c99690d9fc",
+      "status": 404,
+      "removed_fields": [
+        "user_id"
+      ],
+      "source_body_sha256": "b58c849af30864065ff3c576e3ce1000e15e8e48707d1b5c92a991f9be58474f",
+      "published_body_sha256": "c703f583f111b86f2e7c1ccbf17588b5d8f845abdbcecc2214cf35926407761f"
+    }
+  ]
+}

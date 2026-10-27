@@ -1,0 +1,122 @@
+{
+  "documents": 118,
+  "accepted": 354,
+  "cost_usd": 0.003503426,
+  "cost_coverage": 354,
+  "groups": {
+    "all_118": {
+      "inception/mercury-decide": {
+        "n": 118,
+        "before_correct": 29,
+        "after_correct": 29,
+        "before_pct": 24.576271186440678,
+        "after_pct": 24.576271186440678,
+        "net": 0,
+        "fixed": 3,
+        "broken": 3,
+        "still_wrong": 86,
+        "still_correct": 26
+      },
+      "perplexity/pplx-decider-v1.2": {
+        "n": 118,
+        "before_correct": 25,
+        "after_correct": 23,
+        "before_pct": 21.1864406779661,
+        "after_pct": 19.491525423728813,
+        "net": -2,
+        "fixed": 3,
+        "broken": 5,
+        "still_wrong": 90,
+        "still_correct": 20
+      },
+      "typesafe/jev-1.13": {
+        "n": 118,
+        "before_correct": 6,
+        "after_correct": 9,
+        "before_pct": 5.084745762711864,
+        "after_pct": 7.627118644067797,
+        "net": 3,
+        "fixed": 3,
+        "broken": 0,
+        "still_wrong": 109,
+        "still_correct": 6
+      }
+    },
+    "reviewed_111": {
+      "inception/mercury-decide": {
+        "n": 111,
+        "before_correct": 25,
+        "after_correct": 24,
+        "before_pct": 22.52252252252252,
+        "after_pct": 21.62162162162162,
+        "net": -1,
+        "fixed": 2,
+        "broken": 3,
+        "still_wrong": 84,
+        "still_correct": 22
+      },
+      "perplexity/pplx-decider-v1.2": {
+        "n": 111,
+        "before_correct": 21,
+        "after_correct": 19,
+        "before_pct": 18.91891891891892,
+        "after_pct": 17.117117117117118,
+        "net": -2,
+        "fixed": 3,
+        "broken": 5,
+        "still_wrong": 87,
+        "still_correct": 16
+      },
+      "typesafe/jev-1.13": {
+        "n": 111,
+        "before_correct": 5,
+        "after_correct": 8,
+        "before_pct": 4.504504504504505,
+        "after_pct": 7.207207207207207,
+        "net": 3,
+        "fixed": 3,
+        "broken": 0,
+        "still_wrong": 103,
+        "still_correct": 5
+      }
+    },
+    "unresolved_7": {
+      "inception/mercury-decide": {
+        "n": 7,
+        "before_correct": 4,
+        "after_correct": 5,
+        "before_pct": 57.142857142857146,
+        "after_pct": 71.42857142857143,
+        "net": 1,
+        "fixed": 1,
+        "broken": 0,
+        "still_wrong": 2,
+        "still_correct": 4
+      },
+      "perplexity/pplx-decider-v1.2": {
+        "n": 7,
+        "before_correct": 4,
+        "after_correct": 4,
+        "before_pct": 57.142857142857146,
+        "after_pct": 57.142857142857146,
+        "net": 0,
+        "fixed": 0,
+        "broken": 0,
+        "still_wrong": 3,
+        "still_correct": 4
+      },
+      "typesafe/jev-1.13": {
+        "n": 7,
+        "before_correct": 1,
+        "after_correct": 1,
+        "before_pct": 14.285714285714286,
+        "after_pct": 14.285714285714286,
+        "net": 0,
+        "fixed": 0,
+        "broken": 0,
+        "still_wrong": 6,
+        "still_correct": 1
+      }
+    }
+  }
+}

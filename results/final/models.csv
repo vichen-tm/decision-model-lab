@@ -1,0 +1,4 @@
+model,n,accepted,correct,errors,accuracy,cost_usd,unknown_cost_calls
+jev,1000,1000,955,45,0.955,0.03290847,0
+liquid,1000,1000,891,109,0.891,0.00707416,0
+microsoft,1000,1000,932,68,0.932,0.012574422,0

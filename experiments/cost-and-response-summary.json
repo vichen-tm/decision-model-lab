@@ -1,0 +1,23 @@
+{
+  "ag-news": {
+    "unique_response_states": {
+      "accepted": 25425,
+      "http_404": 8,
+      "http_502": 9,
+      "http_429": 13
+    },
+    "known_cost_usd": 0.203205532,
+    "unknown_cost_responses": 30,
+    "scope": "Unique saved response records, including failures. Recovery copies deduplicated; rows assigned to first recorded run. Missing-response intents are in attempt-ledger and not included in these totals. Upstream baseline reuse is separate."
+  },
+  "proofwriter": {
+    "unique_response_states": {
+      "accepted": 10625,
+      "unknown_outcome": 1,
+      "http_503": 1
+    },
+    "known_cost_usd": 0.18281506,
+    "unknown_cost_responses": 2,
+    "scope": "Unique saved response records, including failures. Recovery copies deduplicated; rows assigned to first recorded run. Missing-response intents are in attempt-ledger and not included in these totals. Upstream baseline reuse is separate."
+  }
+}

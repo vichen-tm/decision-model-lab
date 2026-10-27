@@ -1,0 +1,202 @@
+{
+  "f0c6f4a0be2e7a3eaeb884703f4556295efc5e9ab8d3e9875bb5b6e39fb82274": {
+    "questions": {
+      "verdict": {
+        "type": "choice",
+        "instructions": "Using only the provided facts and rules, determine the status of the statement. Apply rules repeatedly as needed. Explicit negation is distinct from lack of proof. Do not assume that an unprovable statement is false.\n\nUse forward derivation under the provided rules. A positive or explicitly negated fact is established only if it is stated or follows by applying a rule whose complete conditions are established for the specified entities. Do not derive a negated fact from an absent fact, an unmet rule condition, a reversed implication, or contraposition. Lack of support for a positive fact does not establish its negation, and lack of support for a negative fact does not establish the positive fact. Evaluate a negated statement by the same evidence standard as a positive statement. Facts obtained by valid rule applications have the same status as the initial facts and may satisfy the conditions of further rules. Preserve the entities specified in each rule's conclusion, including when they differ from those in its conditions or coincide with one another. If the statement is derivable, answer true; if its negation is derivable, answer false. Choose unknown only when neither side has a valid derivation, not merely because it is absent from the initial facts.",
+        "criteria": {
+          "true": "The statement follows from the facts and rules.",
+          "false": "The negation of the statement follows from the facts and rules.",
+          "unknown": "Neither the statement nor its negation follows from the facts and rules."
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "c5186a6b243859212becf24eea871f4eb5cb1b59f33627930fc726c8c7f66b7c": {
+    "questions": {
+      "verdict": {
+        "type": "choice",
+        "instructions": "Using only the provided facts and rules, determine the status of the statement. Apply rules repeatedly as needed. Explicit negation is distinct from lack of proof. Do not assume that an unprovable statement is false.\n\nEvaluate the statement and its logical opposite using the facts and rules. Deriving the statement means true; deriving its opposite means false, including when the statement itself is negative. Either derivation may use several rule applications. Unknown means that neither side follows, not that the statement is missing from the initial facts.",
+        "criteria": {
+          "true": "The statement follows from the facts and rules.",
+          "false": "The negation of the statement follows from the facts and rules.",
+          "unknown": "Neither the statement nor its negation follows from the facts and rules."
+        }
+      }
+    },
+    "model": "liquid/d1",
+    "provider": {
+      "only": [
+        "liquid"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "402ebbb3dd38f9022db7fffc515e3f144aee4371f8f85ec67513d9c6575d34ed": {
+    "questions": {
+      "verdict": {
+        "type": "choice",
+        "instructions": "Using only the provided facts and rules, determine the status of the statement. Apply rules repeatedly as needed. Explicit negation is distinct from lack of proof. Do not assume that an unprovable statement is false.",
+        "criteria": {
+          "true": "The statement follows from the facts and rules.",
+          "false": "The negation of the statement follows from the facts and rules.",
+          "unknown": "Neither the statement nor its negation follows from the facts and rules."
+        }
+      }
+    },
+    "model": "microsoft/microsoft-decision-1",
+    "provider": {
+      "only": [
+        "azure"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "afff4ad3ad4357f52b0746afab68920f924442c2357e3a8c8e9b4f6b555aedea": {
+    "questions": {
+      "verdict": {
+        "type": "choice",
+        "instructions": "Using only the provided facts and rules, determine the status of the statement. Apply rules repeatedly as needed. Explicit negation is distinct from lack of proof. Do not assume that an unprovable statement is false.\n\nUse forward derivation under the provided rules. A positive or explicitly negated fact is established only if it is stated or follows by applying a rule whose complete conditions are established for the specified entities. Do not derive a negated fact from an absent fact, an unmet rule condition, a reversed implication, or contraposition. Lack of support for a positive fact does not establish its negation, and lack of support for a negative fact does not establish the positive fact. Evaluate a negated statement by the same evidence standard as a positive statement. Choose unknown when neither the exact statement nor its exact negation can be derived; choose true or false when the corresponding derivation exists, including through intermediate conclusions.",
+        "criteria": {
+          "true": "The statement follows from the facts and rules.",
+          "false": "The negation of the statement follows from the facts and rules.",
+          "unknown": "Neither the statement nor its negation follows from the facts and rules."
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "471b0b1066d74d687c12fa35d499b8baccbce3dfe4d8dc5d2e0b1ada49c8673e": {
+    "questions": {
+      "verdict": {
+        "type": "choice",
+        "instructions": "Using only the provided facts and rules, determine the status of the statement. Apply rules repeatedly as needed. Explicit negation is distinct from lack of proof. Do not assume that an unprovable statement is false.\n\nStarting with the stated facts, apply each rule whenever all its conditions hold for the same assignment of entities. Add its conclusion to the known facts and continue until no new conclusions follow. Match the exact entities and the positive or negative form of each fact. Then classify the statement: true if it is among these facts, false if its opposite is among them, and unknown if neither is among them.",
+        "criteria": {
+          "true": "The statement follows from the facts and rules.",
+          "false": "The negation of the statement follows from the facts and rules.",
+          "unknown": "Neither the statement nor its negation follows from the facts and rules."
+        }
+      }
+    },
+    "model": "liquid/d1",
+    "provider": {
+      "only": [
+        "liquid"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "7007247e0169305f3e1ae1ad2fe661ef1f0ca256d09ccdda02cb51868184ba9f": {
+    "questions": {
+      "verdict": {
+        "type": "choice",
+        "instructions": "Using only the provided facts and rules, determine the status of the statement. Apply rules repeatedly as needed. Explicit negation is distinct from lack of proof. Do not assume that an unprovable statement is false.\n\nUse forward derivation under the provided rules. A positive or explicitly negated fact is established only if it is stated or follows by applying a rule whose complete conditions are established for the specified entities. Do not derive a negated fact from an absent fact, an unmet rule condition, a reversed implication, or contraposition. Lack of support for a positive fact does not establish its negation, and lack of support for a negative fact does not establish the positive fact. Evaluate a negated statement by the same evidence standard as a positive statement. Facts obtained by valid rule applications have the same status as the initial facts and may satisfy the conditions of further rules. Preserve the entities specified in each rule's conclusion, including when they differ from those in its conditions or coincide with one another. If the statement is derivable, answer true; if its negation is derivable, answer false. Choose unknown only when neither side has a valid derivation, not merely because it is absent from the initial facts.",
+        "criteria": {
+          "true": "The statement follows from the facts and rules.",
+          "false": "The negation of the statement follows from the facts and rules.",
+          "unknown": "Neither the statement nor its negation follows from the facts and rules."
+        }
+      }
+    },
+    "model": "liquid/d1",
+    "provider": {
+      "only": [
+        "liquid"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "c0e56fc499d0285fdfc1a2caed9d6f87ec1f70b31143d60be29c7e9f294444fd": {
+    "questions": {
+      "verdict": {
+        "type": "choice",
+        "instructions": "Using only the provided facts and rules, determine the status of the statement. Apply rules repeatedly as needed. Explicit negation is distinct from lack of proof. Do not assume that an unprovable statement is false.\n\nUse forward derivation under the provided rules. A positive or explicitly negated fact is established only if it is stated or follows by applying a rule whose complete conditions are established for the specified entities. Do not derive a negated fact from an absent fact, an unmet rule condition, a reversed implication, or contraposition. Lack of support for a positive fact does not establish its negation, and lack of support for a negative fact does not establish the positive fact. Evaluate a negated statement by the same evidence standard as a positive statement. Facts obtained by valid rule applications have the same status as the initial facts and may satisfy the conditions of further rules. Preserve the entities specified in each rule's conclusion, including when they differ from those in its conditions or coincide with one another. If the statement is derivable, answer true; if its negation is derivable, answer false. Choose unknown only when neither side has a valid derivation, not merely because it is absent from the initial facts.",
+        "criteria": {
+          "true": "The statement follows from the facts and rules.",
+          "false": "The negation of the statement follows from the facts and rules.",
+          "unknown": "Neither the statement nor its negation follows from the facts and rules."
+        }
+      }
+    },
+    "model": "microsoft/microsoft-decision-1",
+    "provider": {
+      "only": [
+        "azure"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "02c29d6d28b1fa748bd6dd12e1c8677745b571c914f8e17aa9b85c41f823988f": {
+    "questions": {
+      "verdict": {
+        "type": "choice",
+        "instructions": "Using only the provided facts and rules, determine the status of the statement. Apply rules repeatedly as needed. Explicit negation is distinct from lack of proof. Do not assume that an unprovable statement is false.\n\nEvaluate the statement and its logical opposite using the facts and rules. Deriving the statement means true; deriving its opposite means false, including when the statement itself is negative. Either derivation may use several rule applications. Unknown means that neither side follows, not that the statement is missing from the initial facts.",
+        "criteria": {
+          "true": "The statement follows from the facts and rules.",
+          "false": "The negation of the statement follows from the facts and rules.",
+          "unknown": "Neither the statement nor its negation follows from the facts and rules."
+        }
+      }
+    },
+    "model": "microsoft/microsoft-decision-1",
+    "provider": {
+      "only": [
+        "azure"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "640dc966c7004ed37526e558d46db0c9f135f4e315838c04bb48a9b85889e2c8": {
+    "questions": {
+      "verdict": {
+        "type": "choice",
+        "instructions": "Using only the provided facts and rules, determine the status of the statement. Apply rules repeatedly as needed. Explicit negation is distinct from lack of proof. Do not assume that an unprovable statement is false.",
+        "criteria": {
+          "true": "The statement follows from the facts and rules.",
+          "false": "The negation of the statement follows from the facts and rules.",
+          "unknown": "Neither the statement nor its negation follows from the facts and rules."
+        }
+      }
+    },
+    "model": "liquid/d1",
+    "provider": {
+      "only": [
+        "liquid"
+      ],
+      "allow_fallbacks": false
+    }
+  },
+  "34ca557115ff1b124cb6bfe4578ea9b397d296b77ac5d70879b59d99dc2c5d3a": {
+    "questions": {
+      "verdict": {
+        "type": "choice",
+        "instructions": "Using only the provided facts and rules, determine the status of the statement. Apply rules repeatedly as needed. Explicit negation is distinct from lack of proof. Do not assume that an unprovable statement is false.",
+        "criteria": {
+          "true": "The statement follows from the facts and rules.",
+          "false": "The negation of the statement follows from the facts and rules.",
+          "unknown": "Neither the statement nor its negation follows from the facts and rules."
+        }
+      }
+    },
+    "model": "typesafe/jev-1.13",
+    "provider": {
+      "only": [
+        "typesafe"
+      ],
+      "allow_fallbacks": false
+    }
+  }
+}

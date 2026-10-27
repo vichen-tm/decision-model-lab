@@ -1,0 +1,274 @@
+{
+  "frozen_at": "2026-10-23T17:54:57.679824+00:00",
+  "scope": "Three pinned model variants; four preselected policy structures. No final data read for fitting. Fit calibration on1000; choose thresholds on 3-fold crossfit development scores. Rank: coverage then cost then errors. Targets are training objectives, not guarantees.",
+  "seed": 1005,
+  "models": {
+    "jev": "candidate",
+    "liquid": "candidate",
+    "microsoft": "baseline"
+  },
+  "labels": [
+    "true",
+    "false",
+    "unknown"
+  ],
+  "calibrators": {
+    "cal": {
+      "jev": {
+        "mean": [
+          4.972170893804881
+        ],
+        "scale": [
+          3.791622299962144
+        ],
+        "beta": [
+          5.902869037235382,
+          3.1070042135791933
+        ]
+      },
+      "liquid": {
+        "mean": [
+          2.56931314857055
+        ],
+        "scale": [
+          2.179728729141222
+        ],
+        "beta": [
+          3.2607564823581523,
+          1.9267089762213316
+        ]
+      },
+      "microsoft": {
+        "mean": [
+          1.717987828222966
+        ],
+        "scale": [
+          1.716465283055142
+        ],
+        "beta": [
+          3.5648589684559124,
+          1.585346408272771
+        ]
+      }
+    },
+    "cat": {
+      "jev": {
+        "mean": [
+          4.972170893804913,
+          0.391,
+          0.207,
+          1.994930725299679,
+          0.7165572410970753
+        ],
+        "scale": [
+          3.7916222999621465,
+          0.48797438457361736,
+          0.405155525693528,
+          3.3985580745237516,
+          2.1930636349758803
+        ],
+        "beta": [
+          6.189703067476816,
+          2.6152969439530342,
+          0.47844104552873823,
+          -0.20315026434361752,
+          0.665544788151136,
+          0.782729559416807
+        ]
+      },
+      "liquid": {
+        "mean": [
+          2.56931314857055,
+          0.368,
+          0.252,
+          1.2641171473143709,
+          0.23022229504819874
+        ],
+        "scale": [
+          2.179728729141222,
+          0.4822613399392508,
+          0.43416126036301134,
+          2.089913337992108,
+          0.843619173086552
+        ],
+        "beta": [
+          3.2946923228851297,
+          1.4315890219366236,
+          -0.010381021899039687,
+          -0.7126762313192152,
+          0.009391167159198752,
+          0.29232842377695895
+        ]
+      },
+      "microsoft": {
+        "mean": [
+          1.7179878282229646,
+          0.382,
+          0.246,
+          0.5062975219021371,
+          0.5005068585050749
+        ],
+        "scale": [
+          1.7164652830551417,
+          0.4858765275252561,
+          0.4306785344082085,
+          1.0725312397350704,
+          1.1248787558962117
+        ],
+        "beta": [
+          4.468914241001774,
+          1.0354106507877017,
+          -0.039980259145121246,
+          -2.2209674088203997,
+          -0.15874480846063327,
+          1.3765562375378133
+        ]
+      }
+    }
+  },
+  "policies": [
+    {
+      "family": "conditional_majority_cal",
+      "target": "emp99",
+      "params": {
+        "primary": "jev",
+        "threshold": 0.9295025886552619,
+        "vote_threshold": 1.0
+      },
+      "development_inner_oof_selection": {
+        "n": 1000,
+        "accepted": 923,
+        "correct": 919,
+        "errors": 4,
+        "referred": 77,
+        "accuracy": 0.9956663055254604,
+        "coverage": 0.923,
+        "correct_automatic_share": 0.919,
+        "wilson_lower95": 0.9889103980944259,
+        "cost_usd": 0.036267318,
+        "cost_per1000_inputs": 0.036267318,
+        "cost_per_correct_auto": 3.946389336235038e-05,
+        "calls": 1328,
+        "calls_per_model": {
+          "jev": 1000,
+          "liquid": 164,
+          "microsoft": 164
+        },
+        "mean_serial_sum_ms": 384.78911553299986
+      }
+    },
+    {
+      "family": "conditional_weighted_cal",
+      "target": "emp98",
+      "params": {
+        "primary": "jev",
+        "threshold": 0.9295025886552619,
+        "vote_threshold": 0.0
+      },
+      "development_inner_oof_selection": {
+        "n": 1000,
+        "accepted": 1000,
+        "correct": 983,
+        "errors": 17,
+        "referred": 0,
+        "accuracy": 0.983,
+        "coverage": 1.0,
+        "correct_automatic_share": 0.983,
+        "wilson_lower95": 0.9729440411597701,
+        "cost_usd": 0.036267318,
+        "cost_per1000_inputs": 0.036267318,
+        "cost_per_correct_auto": 3.689452492370295e-05,
+        "calls": 1328,
+        "calls_per_model": {
+          "jev": 1000,
+          "liquid": 164,
+          "microsoft": 164
+        },
+        "mean_serial_sum_ms": 384.78911553299986
+      }
+    },
+    {
+      "family": "cascade2_cat",
+      "target": "emp99",
+      "params": {
+        "order": [
+          "microsoft",
+          "jev"
+        ],
+        "thresholds": [
+          0.9706168880207285,
+          0.9424446237391839
+        ]
+      },
+      "development_inner_oof_selection": {
+        "n": 1000,
+        "accepted": 914,
+        "correct": 907,
+        "errors": 7,
+        "referred": 86,
+        "accuracy": 0.9923413566739606,
+        "coverage": 0.914,
+        "correct_automatic_share": 0.907,
+        "wilson_lower95": 0.9842762141024392,
+        "cost_usd": 0.018063905999999998,
+        "cost_per1000_inputs": 0.018063905999999998,
+        "cost_per_correct_auto": 1.9916103638368243e-05,
+        "calls": 1166,
+        "calls_per_model": {
+          "jev": 166,
+          "liquid": 0,
+          "microsoft": 1000
+        },
+        "mean_serial_sum_ms": 439.11638985271566
+      }
+    },
+    {
+      "family": "conditional_veto_cat",
+      "target": "emp100",
+      "params": {
+        "primary": "jev",
+        "verifier": "microsoft",
+        "thresholds": [
+          0.9823608936506788,
+          0.9923961464553641
+        ]
+      },
+      "development_inner_oof_selection": {
+        "n": 1000,
+        "accepted": 692,
+        "correct": 692,
+        "errors": 0,
+        "referred": 308,
+        "accuracy": 1.0,
+        "coverage": 0.692,
+        "correct_automatic_share": 0.692,
+        "wilson_lower95": 0.9944794050828696,
+        "cost_usd": 0.037188689999999996,
+        "cost_per1000_inputs": 0.037188689999999996,
+        "cost_per_correct_auto": 5.374088150289017e-05,
+        "calls": 1326,
+        "calls_per_model": {
+          "jev": 1000,
+          "liquid": 0,
+          "microsoft": 326
+        },
+        "mean_serial_sum_ms": 399.6119312867522
+      }
+    }
+  ],
+  "candidates_considered": {
+    "conditional_weighted_cal": 45,
+    "conditional_majority_cal": 9,
+    "cascade2_cat": 81,
+    "conditional_veto_cat": 81
+  },
+  "original_source_sha256": {
+    "research/proofwriter-20261023/offline-ensemble/data.json": "1e341954ad83a5562e44305b61c852f176a042ee8f537099234c9289ef1023a7",
+    "research/proofwriter-20261023/offline-ensemble/policies.py": "7dbc79ffec9d1e296ae565e49b61f4c63b4ef5ac06874ebf43bd97a3cb563a81",
+    "research/proofwriter-20261023/offline-ensemble/calibration.py": "90f95648e62b39b056ac36cbac38cb0b2d669c099265db1a9d14eb3cc978f64f",
+    "research/proofwriter-20261023/final-validation/freeze.py": "0ed1eaf46067a275ca6b81016706ad8c59d635507b108ad1df1e94bb8064ddee",
+    "research/proofwriter-20261023/wide-v2/appendix.en.txt": "e4b921e16d8dc73d98d1d8369b960d1311b3d0bf21fc5190fc49d55f27ed95bf",
+    "research/proofwriter-20261023/liquid-repair/A/appendix.en.txt": "672794da330f17df5155816f8999ff0894cf3c355f06fe0c0b11459694672e5d"
+  },
+  "publication_note": "Local source paths normalized; fitted coefficients and rules unchanged. Original source hashes identify pre-publication files."
+}

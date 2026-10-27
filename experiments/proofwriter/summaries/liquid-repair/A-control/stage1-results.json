@@ -1,0 +1,1393 @@
+{
+  "stage": "stage1",
+  "n": 75,
+  "baseline_correct": 75,
+  "new_correct": 75,
+  "fixed": 0,
+  "broken": 0,
+  "by_gold": {
+    "true": {
+      "n": 25,
+      "baseline_correct": 25,
+      "new_correct": 25,
+      "fixed": 0,
+      "broken": 0
+    },
+    "false": {
+      "n": 25,
+      "baseline_correct": 25,
+      "new_correct": 25,
+      "fixed": 0,
+      "broken": 0
+    },
+    "unknown": {
+      "n": 25,
+      "baseline_correct": 25,
+      "new_correct": 25,
+      "fixed": 0,
+      "broken": 0
+    }
+  },
+  "by_depth": {
+    "None": {
+      "n": 25,
+      "baseline_correct": 25,
+      "new_correct": 25,
+      "fixed": 0,
+      "broken": 0
+    },
+    "0": {
+      "n": 8,
+      "baseline_correct": 8,
+      "new_correct": 8,
+      "fixed": 0,
+      "broken": 0
+    },
+    "1": {
+      "n": 8,
+      "baseline_correct": 8,
+      "new_correct": 8,
+      "fixed": 0,
+      "broken": 0
+    },
+    "2": {
+      "n": 8,
+      "baseline_correct": 8,
+      "new_correct": 8,
+      "fixed": 0,
+      "broken": 0
+    },
+    "3": {
+      "n": 8,
+      "baseline_correct": 8,
+      "new_correct": 8,
+      "fixed": 0,
+      "broken": 0
+    },
+    "4": {
+      "n": 8,
+      "baseline_correct": 8,
+      "new_correct": 8,
+      "fixed": 0,
+      "broken": 0
+    },
+    "5": {
+      "n": 10,
+      "baseline_correct": 10,
+      "new_correct": 10,
+      "fixed": 0,
+      "broken": 0
+    }
+  },
+  "report": {
+    "complete": true,
+    "states": {
+      "accepted": 75
+    },
+    "accepted_reported_cost_usd": 0.00052228,
+    "cost_coverage": 75,
+    "groups": [
+      {
+        "model": "liquid/d1",
+        "language": "en",
+        "suite": "proofwriter",
+        "question": "verdict",
+        "valid_decisions": 75,
+        "valid_only_accuracy": 1.0,
+        "native_confidence_decisions": 75,
+        "operating_point": {
+          "threshold": 0,
+          "n": 75,
+          "correct": 75,
+          "errors": 0,
+          "total": 75,
+          "baseline_accuracy": 1.0,
+          "accuracy": 1.0,
+          "coverage": 1.0,
+          "lost_correct": 0,
+          "removed_errors": 0
+        },
+        "U_at_J": null
+      }
+    ],
+    "threshold_evaluation": "Descriptive: selected and evaluated on these same observations"
+  },
+  "rows": [
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-1039-Q1",
+      "gold": "true",
+      "depth": 0,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9971607134402447,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-1040-Q8",
+      "gold": "false",
+      "depth": 3,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9946566505448997,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-1088-Q22",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.8980822021766772,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-1137-Q10",
+      "gold": "false",
+      "depth": 4,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9865505181296506,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-1156-Q18",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.8253357446809941,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-1209-Q6",
+      "gold": "false",
+      "depth": 2,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9866765921876746,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-1213-Q10",
+      "gold": "false",
+      "depth": 4,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9605510114231124,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-15-Q15",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.8984975639214641,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-250-Q12",
+      "gold": "false",
+      "depth": 5,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9982047471567916,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-287-Q14",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.7259298764112141,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-352-Q12",
+      "gold": "false",
+      "depth": 5,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.555989546400824,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-439-Q14",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9727655279738183,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-468-Q2",
+      "gold": "false",
+      "depth": 0,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.7888913308800625,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-525-Q10",
+      "gold": "false",
+      "depth": 4,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9899793100034766,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-527-Q10",
+      "gold": "false",
+      "depth": 4,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9576814391587831,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-560-Q16",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.993490263827205,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-575-Q15",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.8880676079964351,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-656-Q19",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.7710747853544748,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-675-Q5",
+      "gold": "true",
+      "depth": 2,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9836060786099488,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-721-Q6",
+      "gold": "false",
+      "depth": 2,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9979126758119166,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-787-Q11",
+      "gold": "true",
+      "depth": 5,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.8815164295561062,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-81-Q16",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9495784933715048,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-886-Q5",
+      "gold": "true",
+      "depth": 2,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.955912028274482,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-887-Q11",
+      "gold": "true",
+      "depth": 5,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.21016107043867616,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNeg-OWA-D5-94-Q11",
+      "gold": "true",
+      "depth": 5,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9826788551628516,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-1078-Q13",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.8704479379823793,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-1084-Q12",
+      "gold": "false",
+      "depth": 5,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.8955804730589525,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-1321-Q15",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.7310759051246614,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-1322-Q9",
+      "gold": "true",
+      "depth": 4,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.7526476413060392,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-1347-Q11",
+      "gold": "true",
+      "depth": 5,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9753978691697152,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-1429-Q2",
+      "gold": "false",
+      "depth": 0,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9891447684267483,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-145-Q7",
+      "gold": "true",
+      "depth": 3,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9764246652269093,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-19-Q7",
+      "gold": "true",
+      "depth": 3,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.7943833010181438,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-222-Q16",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9023373766829614,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-27-Q3",
+      "gold": "true",
+      "depth": 1,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.984589133500613,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-314-Q8",
+      "gold": "false",
+      "depth": 3,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9932617851378331,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-508-Q22",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.8879657797654774,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-532-Q16",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9758228429073335,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-536-Q8",
+      "gold": "false",
+      "depth": 3,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.5467364412448812,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-559-Q12",
+      "gold": "false",
+      "depth": 5,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.8470592938115677,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-578-Q1",
+      "gold": "true",
+      "depth": 0,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9851273175147304,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-614-Q7",
+      "gold": "true",
+      "depth": 3,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9821828594941793,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-667-Q13",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.813324501649134,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-AttNoneg-OWA-D5-709-Q11",
+      "gold": "true",
+      "depth": 5,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.7825791701467091,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-1003-Q3",
+      "gold": "true",
+      "depth": 1,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.7516883000869401,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-1010-Q9",
+      "gold": "true",
+      "depth": 4,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.6462652167139873,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-1014-Q5",
+      "gold": "true",
+      "depth": 2,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.47155726620713057,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-1028-Q1",
+      "gold": "true",
+      "depth": 0,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.998954233715345,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-180-Q18",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9088591049893331,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-198-Q9",
+      "gold": "true",
+      "depth": 4,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.936900602760129,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-338-Q6",
+      "gold": "false",
+      "depth": 2,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.993752571138848,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-348-Q18",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.27929765728426914,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-376-Q2",
+      "gold": "false",
+      "depth": 0,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9889692110093178,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-466-Q14",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.7033031211194298,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-479-Q22",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.881516420427175,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-48-Q1",
+      "gold": "true",
+      "depth": 0,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9477284805982171,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-588-Q9",
+      "gold": "true",
+      "depth": 4,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.4833714478844914,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-620-Q4",
+      "gold": "false",
+      "depth": 1,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.3985919758503631,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-848-Q2",
+      "gold": "false",
+      "depth": 0,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9905120524876647,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-868-Q12",
+      "gold": "false",
+      "depth": 5,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.5504686576711209,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-901-Q3",
+      "gold": "true",
+      "depth": 1,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.988476118583314,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-96-Q8",
+      "gold": "false",
+      "depth": 3,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9822622374669212,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNeg-OWA-D5-962-Q23",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.5935187290060191,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNoneg-OWA-D5-1026-Q22",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9507352959529216,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNoneg-OWA-D5-1035-Q21",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.731864889738735,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNoneg-OWA-D5-192-Q6",
+      "gold": "false",
+      "depth": 2,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9900377932145414,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNoneg-OWA-D5-198-Q4",
+      "gold": "false",
+      "depth": 1,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.45457500390625494,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNoneg-OWA-D5-246-Q14",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.7782818949527033,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNoneg-OWA-D5-29-Q7",
+      "gold": "true",
+      "depth": 3,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.41298872833180456,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNoneg-OWA-D5-375-Q3",
+      "gold": "true",
+      "depth": 1,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9602490969558537,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNoneg-OWA-D5-457-Q21",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.6145338977162926,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNoneg-OWA-D5-604-Q5",
+      "gold": "true",
+      "depth": 2,
+      "baseline": "true",
+      "new": "true",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9657126483727916,
+      "historical_predictions": [
+        "true",
+        "true",
+        "true",
+        "true",
+        "true"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNoneg-OWA-D5-609-Q18",
+      "gold": "unknown",
+      "depth": null,
+      "baseline": "unknown",
+      "new": "unknown",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.7647245993413454,
+      "historical_predictions": [
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown",
+        "unknown"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNoneg-OWA-D5-71-Q4",
+      "gold": "false",
+      "depth": 1,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9934152251732646,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    },
+    {
+      "id": "proofwriter-RelNoneg-OWA-D5-887-Q4",
+      "gold": "false",
+      "depth": 1,
+      "baseline": "false",
+      "new": "false",
+      "baseline_correct": true,
+      "correct": true,
+      "confidence": 0.9750671604766556,
+      "historical_predictions": [
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ]
+    }
+  ],
+  "validation": "Unique accepted response; original case/gold/options/route unchanged; exact appendix; score/prediction and arithmetic agree."
+}

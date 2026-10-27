@@ -1,0 +1,58 @@
+{
+  "conditional_majority_cal/emp99": {
+    "1": {
+      "n": 854,
+      "correct": 848,
+      "errors": 6,
+      "referred": 0
+    },
+    "7": {
+      "n": 146,
+      "correct": 80,
+      "errors": 3,
+      "referred": 63
+    }
+  },
+  "conditional_weighted_cal/emp98": {
+    "1": {
+      "n": 854,
+      "correct": 848,
+      "errors": 6,
+      "referred": 0
+    },
+    "7": {
+      "n": 146,
+      "correct": 113,
+      "errors": 33,
+      "referred": 0
+    }
+  },
+  "cascade2_cat/emp99": {
+    "4": {
+      "n": 853,
+      "correct": 848,
+      "errors": 5,
+      "referred": 0
+    },
+    "5": {
+      "n": 147,
+      "correct": 75,
+      "errors": 1,
+      "referred": 71
+    }
+  },
+  "conditional_veto_cat/emp100": {
+    "1": {
+      "n": 690,
+      "correct": 689,
+      "errors": 1,
+      "referred": 0
+    },
+    "5": {
+      "n": 310,
+      "correct": 25,
+      "errors": 0,
+      "referred": 285
+    }
+  }
+}
